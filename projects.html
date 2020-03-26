@@ -3,55 +3,81 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <meta name="keywords" content="web design, frontend web development, software engineer, javascript engineer">
-        <title>Raphael Donanu | My Portfolio</title>
-        <link rel="stylesheet" href="style.css">
-    </head> 
+        <meta name="description" content="Raphael Donanu">
+        <meta name="keywords" content="Leadership, mentorship, service, ideas, motivation, influence, inspiration, purpose">
+        <meta name="author" content="Raphael Donanu">
+        <title>Raphael Donanu | Welcome</title>
+        <link rel="stylesheet" href="/style2.css"> 
+    </head>
     <body>
         <header>
             <div class="container">
-                <div class="branding">
-                    <a href="index.html"><h1><span>Raphael</span class="highlight">Donanu</h1></a>
+                <div id="branding">
+                        <h1><span class="highlight">Raphael</span> Donanu</h1>
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Me</a></li>
-                        <li><a href="projects.html">My Projects</a></li>
-                        <li><a href="contact.html">Contact Me</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Me</a></li>
+                            <li class="current"><a href="gallery.html">My Projects</a></li>
+                            <li><a href="contact.html">Contact Me</a></li>
                     </ul>
                 </nav>
-            </div>
-        </header>
-
-        <section id="showcase">
-            <div class="container">
-                <h1>My projects</h1>
-            </div>
-        </section>
-
+        </header>        
+                
         <section id="newsletter">
             <div class="container">
-                <h1>Suscribe To My Newsletter</h1>
-                <forms>
-                    <input type="email" placeholder="Enter Your Email" name="email">
-                    <button type="submit" class="btn">Suscribe</button>
-                </forms>
+                <h1>Subscribe To My Newsletter</h1>
+                <form action="action_page.php">
+                    <input type="email" placeholder="Enter Email..." name="email" required>
+                    <input class="button_1" id="subscribe" type="button" value="Subscribe"onclick="doFunction();">
+                </form>
+                <script>
+                    function doFunction() {
+                        alert ("Thank you for subscribing");
+                    }
+                </script>
+                </form>
             </div>
         </section>
 
-        <section>
-            <div class="container">
-                <a href="https://linkedin.com/in/raphael-donanu" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/Raphael2k6" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.facebook.com/raphael.donanu" target="_blank"><i class="fab fa-facebook"></i></a>
-                <a href="https://www.instagram.com/raphaeldonanu/?hl=en" target="_blank"><i class="fab fa-instagram-square"></i></a>
-            </div>
-        </section>
+    
+          <section id="showcase">
+                <div class="images">
+                      <img src="img/dsc_0394_001 (2).jpg">
+		
+                      <img src="img/dsc_2682_001.jpg">
+                      <img src="img/img-20150621-wa0001_001.jpg">
+                      <img src="img/img_20140608_155334.jpg">
+	
+                      <img src="img/img_20160209_082623 (2).jpg">
+                    
+                      <img src="img/IMG_20161225_074858.jpg">
+                      
+                      <img src="img/IMG_20161225_160422_550.jpg">
+                      <img src="img/IMG_20170910_181050_438.jpg">
+                      
+                      <img src="img/IMG_20171111_095259.jpg">
+                      <img src="img/IMG_20180411_172820.jpg">
+                      <img src="img/IMG_20180812_073844_979.jpg">
+                     
+                      <img src="img/IMG_20190221_095225_515.jpg">
+                      <img src="img/IMG_20190314_105128_740.jpg">
+                      <img src="img/pix.jpg">
+                      <img src="img/unnamed.jpg">
+                      <img src="img/We.jpg">
+                </div>   
+            </section>
 
-        <footer>
-            <p>Raphael Donanu, Copyright &copy; 2020</p>
-        </footer>
-        <script src="https://kit.fontawesome.com/bd7bbe8fc3.js" crossorigin="anonymous"></script>
+
+            
+
+  
+<footer>
+    <p>Raphael Donanu, Copyright &copy; 2020</p>
+</footer>
+
     </body>
+
+
 </html>

@@ -1,0 +1,121 @@
+body {
+    margin: auto 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAV */
+.main-nav {
+    display:flex;
+    list-style: none;
+    font-size: 1em;
+    margin: 0;
+    background-color: rgb(14, 13, 15);
+}
+
+.main-nav .highlight, .main-nav .current a{
+    color: darkorange;
+    font-weight:bold;
+}
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.7em;
+        padding: 0;
+    }
+
+}
+
+.push {
+    margin-left: auto;
+}
+
+li {
+    padding: 20px;
+}
+
+a {
+    color: cornsilk;
+    text-decoration: none;
+} 
+
+a:hover{
+    color: darkorange;
+}
+
+.container {
+    color: rgb(12, 10, 1);
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    height: 70vh;
+    background-image: url("img/website_background_wallpapers_007.jpg");
+    background-size: cover;
+}
+
+.char {
+    text-align: center;
+    padding-top: 200px;
+    padding-left: 0px;
+}
+
+.char2 {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.box {
+    display:flex;
+    background-color: rgb(10, 12, 12);
+    height: 15vh;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+h3 {
+    color: darkorange;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 10px;
+}
+
+.contact {
+    color: rgb(12, 10, 1);
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    height: 70vh;
+    background-image: url("img/website_background_wallpapers_007.jpg");
+    background-size: cover;
+
+}
+
+.fab {
+    padding: 10px;
+    padding-top: 30px;
+}
+
+.input {
+    padding-top: 30px;
+}
+
+.btn {
+    border-radius: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: cornsilk;
+    background-color: rgb(247, 95, 7);
+    margin: 0px;
+    
+}
+
+.btn:hover {
+    background-color: rgb(55, 161, 231);
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    color: cornsilk;
+    background-color: rgb(55, 161, 231);
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
