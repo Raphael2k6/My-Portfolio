@@ -19,6 +19,13 @@
         padding:0;
     }
 
+    /* if you want the position of your navbar to be fixed as you scroll down the page*/
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
     .button_1{
         height:38px;
         background:#08f0dc;
