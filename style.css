@@ -10,7 +10,7 @@ body {
     flex-flow: row wrap;
     justify-content: flex-start;
     font-size: 1em;
-    margin: 0;
+    margin: auto;
     background-color: rgb(14, 13, 15);
 }
 
@@ -23,6 +23,7 @@ body {
         font-size: 0.7em;
         padding: 0;
     }
+    /* justify content "space around" for medium screens of 800px, if you want a vertical nav bar for small screens of 500px and less use flex direction "column" */
     h3 {
         font-size: 1em;
     }
@@ -34,7 +35,7 @@ body {
 } */
 
 li {
-    padding: 20px;
+    padding: 1.5em;
 }
 
 a {
@@ -44,6 +45,7 @@ a {
 
 a:hover{
     color: darkorange;
+    text-transform: uppercase;
 }
 
 .container {
@@ -58,7 +60,7 @@ a:hover{
 
 .char {
     text-align: center;
-    padding-top: 200px;
+    padding-top: 8em;
     padding-left: 0px;
 }
 
