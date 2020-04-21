@@ -7,6 +7,8 @@ body {
 .main-nav {
     display:flex;
     list-style: none;
+    flex-flow: row wrap;
+    justify-content: flex-start;
     font-size: 1em;
     margin: 0;
     background-color: rgb(14, 13, 15);
@@ -27,9 +29,9 @@ body {
 
 }
 
-.push {
+ /* .push { 
     margin-left: auto;
-}
+} */
 
 li {
     padding: 20px;
@@ -49,7 +51,7 @@ a:hover{
     display: flex;
     align-self: center;
     justify-content: center;
-    height: 70vh;
+    height: 75vh;
     background-image: url("img/website_background_wallpapers_007.jpg");
     background-size: cover;
 }
@@ -66,18 +68,14 @@ a:hover{
 }
 
 .box {
-    display:flex;
     background-color: rgb(10, 12, 12);
-    height: 15vh;
-    padding-left: 10px;
-    padding-top: 20px;
+    height: 20vh;
+    padding: 25px 0px 25px 10px;
 }
 
 h3 {
     color: darkorange;
-    margin-left: 40px;
-    margin-right: 40px;
-    padding-top: 10px;
+    margin-left: 10px;
 }
 
 .contact {
@@ -92,12 +90,12 @@ h3 {
 }
 
 .fab {
-    padding: 10px;
-    padding-top: 30px;
+    padding: 15px 0px 0px 10px;
 }
 
 .input {
     padding-top: 30px;
+    margin-left: 10px;
 }
 
 .btn--color {
@@ -106,7 +104,7 @@ h3 {
     padding-left: 10px;
     color: cornsilk;
     background-color: rgb(247, 95, 7);
-    margin: 0px;
+    margin: 8px;
     
 }
 
